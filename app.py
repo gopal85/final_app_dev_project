@@ -14,3 +14,7 @@ app = Flask(__name__)
 @app.route('/index')
 def index():
     return "hello world"
+
+@app.route('/graduation')
+def graduation():
+    return "<h1>HAPPY GRADUATION!</h1>"
